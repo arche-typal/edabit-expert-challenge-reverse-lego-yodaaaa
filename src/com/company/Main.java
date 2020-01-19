@@ -12,7 +12,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
 
-        System.out.println("Enter a sentence. Include at least one comma.");
+        System.out.println("Enter one of more sentences. Include at least one comma. Pretend you're yoda. (ex. 'Powerful, you have become.')");
         String userInput = scanner.nextLine();
 
         int userInputLength = userInput.length();
